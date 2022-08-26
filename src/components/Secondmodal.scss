@@ -1,0 +1,53 @@
+.btn-modal{
+    height: 50px;
+    width: 160px;
+    align-items: center;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: -3px;
+}
+.modalbox{
+    height: 450px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 350px;
+    border: 10px;
+    border: 1px solid rgba(10, 10, 10, 0.932);
+    background-color: white;
+
+    .svgclosediv{
+        height: 40px;
+        width: 50px;
+        margin-left: 33em;
+    .svgclose{
+        height: 40px;
+        width: 40px;
+    }
+    }
+    .largeimgs{
+        height: 210px;
+        width: 600px;
+    }
+    .names{
+        margin-left: 15px;
+        .propic{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+        .author{
+            margin-left: 15px;
+        }
+    }
+    .modtitle{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .modpara{
+        margin-top: 10px;
+        margin-left: 15px;
+        color: rgba(0, 0, 0, 0.466);
+    }
+}

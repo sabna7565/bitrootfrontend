@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.dashboard{
+    height: 1200px;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+
+    .box{
+        height: 470px;
+        border: 10px;
+        border: 1px solid rgba(10, 10, 10, 0.055);
+        margin-top: 30px;
+        width: 504px;
+    
+        .largeimg{
+            width: 500px;
+            height: 250px;
+        }
+     
+        .largeimg:hover {
+            opacity: 0.5;
+        }
+        
+        .imgbutton:hover{
+            margin-top: -125px;
+        }
+        .middle:hover {
+            width: 150px;
+            align-items: center;
+            text-align: center;
+            margin-left: 170px;
+            opacity: 1;
+            height: 50px;
+            transition: opacity .35s ease;
+        }
+       
+        .imgbutton{
+            margin-top: -170px;
+        }
+        .middle{
+            width: 490px;
+            align-items: center;
+            text-align: center;
+            margin-left: 10px;
+            height: 100px;
+            opacity: 0;
+            transition: opacity .35s ease;
+          }
+
+        .title{            
+            height: 40px;
+            margin-top: 85px;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+        .content{
+            margin-left: 25px;
+            color: rgba(0, 0, 0, 0.466);
+        }
+        .name{
+            margin-top: 30px;
+        .author{
+           margin-left: 25px;           
+        }
+
+        .date{
+            margin-left: 140px;
+        }
+        }
+    }
+}
